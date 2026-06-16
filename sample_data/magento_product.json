@@ -1,0 +1,16 @@
+{
+  "sku": "WB-750-BLUE",
+  "name": "HydraPeak Stainless Steel Water Bottle",
+  "brand": "HydraPeak",
+  "category": "Drinkware",
+  "short_description": "",
+  "description": "",
+  "attributes": {
+    "capacity": "750ml",
+    "material": "Stainless steel",
+    "insulated": "Yes",
+    "bpa_free": "Yes",
+    "color": "Midnight Blue"
+  },
+  "market": "US"
+}

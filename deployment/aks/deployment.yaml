@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pim-magento-api
+  namespace: pim-magento-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pim-magento-api
+  template:
+    metadata:
+      labels:
+        app: pim-magento-api
+    spec:
+      containers:
+      - name: api
+        image: YOUR_REGISTRY/pim-magento-demo:latest
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - secretRef:
+            name: pim-magento-secrets

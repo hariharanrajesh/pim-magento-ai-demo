@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pim-magento-api
+  namespace: pim-magento-demo
+spec:
+  selector:
+    app: pim-magento-api
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8000
+  type: LoadBalancer

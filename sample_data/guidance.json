@@ -1,0 +1,20 @@
+[
+  {
+    "id": "guide-1",
+    "title": "Brand voice guidance",
+    "content": "Use concise, confident, benefit-led language. Avoid exaggerated claims. Focus on durability and convenience.",
+    "tags": "brand voice"
+  },
+  {
+    "id": "guide-2",
+    "title": "SEO drinkware guidance",
+    "content": "Use keywords like insulated water bottle, stainless steel bottle, reusable bottle, BPA-free bottle.",
+    "tags": "seo drinkware"
+  },
+  {
+    "id": "guide-3",
+    "title": "Approved structure reference",
+    "content": "Bullets should cover material, temperature retention, portability, cleaning ease and sustainability angle.",
+    "tags": "approved structure"
+  }
+]
