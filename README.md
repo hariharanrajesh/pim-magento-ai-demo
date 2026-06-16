@@ -134,3 +134,5 @@ az functionapp config appsettings set --name func-pim-magento-demo --resource-gr
 - The Magento write-back uses a **demo-safe client** with REST authentication and update methods separated into one client file.
 - Keep approval in the loop for the demo.
 - If you want a storefront-side demo, you can extend this with GraphQL query examples later.
+=======
+# pim-magento-ai-demo
