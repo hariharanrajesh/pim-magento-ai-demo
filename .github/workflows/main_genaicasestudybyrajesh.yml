@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'GenAICaseStudyByRajesh'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2BAFBCA3C1AE4C4885D57A90D3B1ED3B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_97F0CB47A82B498981B12382BC0DE26A }}
